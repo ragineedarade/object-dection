@@ -1,0 +1,6 @@
+import cv2
+import numpy  
+
+# Load pre-trained MobileNet SSD model and class labels
+prototxt_path = "deploy.prototxt"
+model_path = "mobilenet_iter_73000.caffemodel"
